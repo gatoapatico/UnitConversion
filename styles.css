@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "inter-extraBold";
+    src: url(Inter-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "inter-semiBold";
+    src: url(Inter-SemiBold.ttf);
+}
+@font-face {
+    font-family: "inter-medium";
+    src: url(Inter-Medium.ttf);
+}
+@font-face {
+    font-family: "inter-regular";
+    src: url(Inter-Regular.ttf);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #353535;
+    margin: 0;
+    height: 100%;
+    min-height: 729px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.section {
+    width: 550px;
+}
+
+#sec1 {
+    height: 285px;
+    background-color: #6943ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#sec1 h1 {
+    font-family: "inter-extraBold";
+    font-size: 28px;
+    color: white;
+}
+
+#sec1 input {
+    width: 117px;
+    height: 83px;
+    font-family: "inter-extraBold";
+    font-size: 58px;
+    text-align: center;
+    color: white;
+    border: 2px solid #b295ff;
+    border-radius: 5px;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#sec1 button {
+    width: 117px;
+    height: 42px;
+    color: #3d3d3d;
+    font-family: "inter-medium";
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+#sec1 button:active {
+    background-color: rgb(170, 170, 170);
+}
+
+#sec2 {
+    height: 444px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.unitBox {
+    background-color: #ffffff;
+    width: 500px;
+    height: 108.57px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 0 0 0;
+}
+
+.unitBox h3 {
+    font-family: "inter-semiBold";
+    font-size: 20px;
+    color: #5a537b;
+    margin: 0;
+}
+
+.unitBox p {
+    font-family: "inter-regular";
+    font-size: 14px;
+    color: #353535;
+}
